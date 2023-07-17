@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.falu.macaid.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "AnvilScreenHandlerMixin",
+    "BlockMixin",
+    "ElytraItemMixin",
+    "InGameHudMixin",
+    "ItemStackMixin",
+    "MinecraftClientMixin",
+    "ServerPlayerEntityMixin",
+    "ToolMaterialsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

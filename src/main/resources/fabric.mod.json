@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "macaid",
+  "version": "${version}",
+  "name": "MACAid",
+  "description": "Mine A Chunk helper",
+  "authors": ["falu"],
+  "contact": {
+    "homepage": "https://github.com/FaluHub"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.falu.macaid.MACAid"]
+  },
+  "mixins": ["macaid.mixins.json"],
+  "depends": {
+    "minecraft": "1.19.4"
+  }
+}
